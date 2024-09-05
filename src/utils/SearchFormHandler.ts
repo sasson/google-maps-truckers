@@ -1,7 +1,7 @@
 
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 import ContextManager from "./ContextManager";
-import Autocomplete from "@googlemaps/markerclusterer";
+// import Autocomplete from '@vis.gl/react-google-maps';
 
 class SearchFormHandler {
 
@@ -17,7 +17,7 @@ class SearchFormHandler {
         this.map = map;
         this.autocomplete = undefined;
         this.input = undefined;
-        this.init();
+        //this.init();
     }
 
     private init() {

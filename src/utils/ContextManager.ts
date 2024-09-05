@@ -6,7 +6,7 @@ class ContextManager {
     private mapContext: MapContext;
 
     constructor() {
-        this.mapContext = {GOOGLE_MAPS_API_KEY: "AIzaSyCH5HU39ZEV23tpeK-8UMQx02UyXFhMG8Y"};
+        this.mapContext = {GOOGLE_MAPS_API_KEY: "AIzaSyA92f1aiopxbLOOJWN0xI_UjyEIx4Yo-2s"};
     }
 
     public static getInstance(): ContextManager {

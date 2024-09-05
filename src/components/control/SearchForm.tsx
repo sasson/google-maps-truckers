@@ -10,8 +10,7 @@ function SerachForm() {
     setTimeout(() => {
         const map = ContextManager.getInstance().getContext().googleMap as google.maps.Map;
         new SearchFormHandler(map);
-
-    }, 100)
+    }, 500)
 
     return (
         <div id="searchForm">
@@ -60,6 +59,7 @@ function SerachForm() {
         <span id="place-name" className="title"></span><br />
         <span id="place-address"></span>
       </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA92f1aiopxbLOOJWN0xI_UjyEIx4Yo-2s&libraries=places&callback=init&libraries=places&v=weekly"  defer></script>
       </div>
     )
 }
